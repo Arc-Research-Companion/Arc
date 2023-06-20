@@ -20,3 +20,13 @@ window.addEventListener("DOMContentLoaded", () => {
     greet();
   });
 });
+/*
+window.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("#test-form")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    location.href = "arc/index2.html";
+  });
+});
+*/
+
+
