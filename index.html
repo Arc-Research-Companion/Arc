@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="/src/styles.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tauri App</title>
-  <script type="module" src="/src/main.ts" defer></script>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="/src/styles.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tauri App</title>
+<script type="module" src="/src/main.ts" defer></script>
+<style>
+  body {
+    background: #001220 url("/src/assets/layered-waves-haikei.svg");
+    min-height: 100vh;
+    min-width: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+  }
+</style>
 </head>
 
 <body>
@@ -21,6 +30,16 @@
       <button>click me bitch</button>
     </a>
   </div>
+  <div class="row">
+    <div class="column">
+      <button>About us</button>
+    </div>
+    <div class="column">
+      <button>What is ARC?</button>
+    </div>
+    <div class="column">
+      <button>Donate</button>
+    </div>
 </body>
 
 </html>
