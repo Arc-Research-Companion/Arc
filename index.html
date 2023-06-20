@@ -14,41 +14,32 @@
       .logo.typescript:hover {
         filter: drop-shadow(0 0 2em #2d79c7);
       }
+
+      body {
+        background: #001220 url("/src/assets/layered-waves-haikei.svg");
+        min-height: 100vh;
+        min-width: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <h1>Welcome to Tauri!</h1>
-
-      <div class="row">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/src/assets/vite.svg" class="logo vite" alt="Vite logo" />
-        </a>
-        <a href="https://tauri.app" target="_blank">
-          <img
-            src="/src/assets/tauri.svg"
-            class="logo tauri"
-            alt="Tauri logo"
-          />
-        </a>
-        <a href="https://www.typescriptlang.org/docs" target="_blank">
-          <img
-            src="/src/assets/typescript.svg"
-            class="logo typescript"
-            alt="typescript logo"
-          />
-        </a>
-      </div>
-
-      <p>Click on the Tauri logo to learn more about the framework</p>
-
-      <form class="row" id="greet-form">
-        <input id="greet-input" placeholder="Enter a name..." />
-        <button type="submit">Greet</button>
-      </form>
-
-      <p id="greet-msg"></p>
+        <h3>Welcome to</h3>
+        <h1>ARC</h1>
+        <h2>The Academic Research Companion</h2>
+    </div>
+    <div class="row">
+        <div class="column">
+            <button>About us</button>
+        </div>
+        <div class="column">
+            <button>What is ARC?</button>
+        </div>
+        <div class="column">
+            <button>Donate</button>
+        </div>
     </div>
   </body>
-</html>
